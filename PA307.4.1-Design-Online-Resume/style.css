@@ -150,3 +150,59 @@ Personal Information styles
     padding-left: 15px;
    
 }
+
+
+
+/****************************EDUCATION DETAILS************************************/
+#education-details{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+
+#education-sub-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    gap: 10px;
+    background-color: gray;
+    height: 50px;
+    font-weight: 200;
+}
+
+.edu-down-arrow{
+    background-color: rgb(35, 145, 72);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+#schools-attended{
+    display: flex;
+    flex-direction: column;
+
+}
+.schools-attended-container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.edu-left-pointing-arrow{
+    background-color: rgb(35, 145, 72);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.name-of-school{
+    flex-grow: 2;
+    margin-left: 35px;
+}
